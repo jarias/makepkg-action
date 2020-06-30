@@ -1,0 +1,4 @@
+name: 'archlinux makepkg'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
