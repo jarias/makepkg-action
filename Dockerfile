@@ -1,6 +1,6 @@
 FROM archlinux
 
-RUN pacman --noconfirm -Sy base-devel
+RUN pacman --noconfirm -Sy base-devel aws-cli
 RUN useradd build -m
 RUN echo 'build ALL=NOPASSWD: ALL' >> /etc/sudoers
 
