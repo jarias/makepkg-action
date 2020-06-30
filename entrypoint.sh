@@ -4,4 +4,4 @@ set -e
 
 chmod -R a+rw .
 
-sudo -u build makepkg --syncdeps --noconfirm
+sudo -u build makepkg --sign --syncdeps --noconfirm
