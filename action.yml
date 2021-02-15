@@ -1,4 +1,5 @@
-name: 'archlinux makepkg'
+name: archlinux makepkg
+description: Builds an Arch Linux pacman package
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
+  using: docker
+  image: Dockerfile
